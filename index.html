@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>CASTLE INN HOME</title><!-- Add the slick-theme.css if you want default styling -->
+	<link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="img/icon.png" rel="icon" type="image/png">
+	<link href="css/fontawesome-all.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<a class="to-top" href="#">&#9650;</a>
+
+	<nav>
+		<a href="#"><img alt="castle inn logo" src="img/logo.png"></a>
+
+		<ul id="drop-nav">
+			<li>
+				<a href="index.html">HOME</a>
+			</li>
+
+
+			<li>
+				<a href="#">ROOMS</a>
+
+				<ul>
+					<li>
+						<a href="rates.html">RATES</a>
+					</li>
+
+
+					<li>
+						<a href="room.html">BALCONY</a>
+					</li>
+
+
+					<li>
+						<a href="standard.html">STANDARD</a>
+					</li>
+
+
+					<li>
+						<a href="centenary.html">CENTENARY</a>
+					</li>
+				</ul>
+			</li>
+
+
+			<li>
+				<a href="about.html">ABOUT</a>
+			</li>
+
+
+			<li>
+				<a href="contact.html">CONTACT</a>
+			</li>
+		</ul>
+	</nav>
+
+
+<!-- slideshow -->
+	<div class="mySlides fade">
+		<div class="numbertext">
+			1 / 3
+		</div>
+		<img src="img/header1.jpg" style="width:100%">
+
+		<div class="text">
+		</div>
+	</div>
+
+
+	<div class="mySlides fade">
+		<div class="numbertext">
+			2 / 3
+		</div>
+		<img src="img/header22.jpg" style="width:100%">
+
+		<div class="text">
+		</div>
+	</div>
+
+
+	<div class="mySlides fade">
+		<div class="numbertext">
+			3 / 3
+		</div>
+		<img src="img/header.jpg" style="width:100%">
+
+		<div class="text">
+		</div>
+	</div>
+	<br>
+
+
+	<div style="text-align:center">
+		<span class="dot"></span> <span class="dot"></span> <span class="dot"></span>
+	</div>
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	   var i;
+	   var slides = document.getElementsByClassName("mySlides");
+	   var dots = document.getElementsByClassName("dot");
+	   for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";  
+	   }
+	   slideIndex++;
+	   if (slideIndex > slides.length) {slideIndex = 1}    
+	   for (i = 0; i < dots.length; i++) {
+	       dots[i].className = dots[i].className.replace(" active", "");
+	   }
+	   slides[slideIndex-1].style.display = "block";  
+	   dots[slideIndex-1].className += " active";
+	   setTimeout(showSlides, 4000); // Change image every 2 seconds
+	}
+	</script>
+
+	<main>
+		
+
+
+		<section>
+			<div class="overviewtext">
+				<i class="fab fa-fort-awesome-alt"></i>
+
+				<h1>OVERVIEW</h1>
+
+
+				<h3>THE INN</h3>
+
+
+				<p>Castle Hill Guesthouse is a four star characterful Edwardian Villa overlooking the quaint fishing village of Kalk Ba. The beautiful ceilings and lattice veranda gives this building the charm and warmth make you feel at home. Enjoy true Cape hospital and personal service.</p>
+
+
+				<h3>The Area</h3>
+
+
+				<p>The historic Fisherman’s Village of Kalk Bay offers a variety of antique, boutique and craft shops that line the cobbled lanes of Main Road. With Silvermine Mountain as the backdrop and the harbour with the fishing boats lining the horizon makes one of the spectacular spots on the Southern Peninsula. Excellent Restaurants and Bars gives you a top choice in your culinary experience. Harbour House and Brass Bell being some of the favourites</p>
+
+
+				<h3>THE HISTORY</h3>
+
+
+				<p>The Inn at Castle hill was built by Scots grain merchant Alex Calder in 1917 and it is most probably one of the most historic sites in this area. It remained in the family untill 1953 and was then renamed, by the new owners, to Sea Breeze Hotel up to the year of 1969. It was then converted to a nursing home called the Susan Chandler Home untill 1989. It was then bought by Carol and Ray Duff who restored the building to its former glory as a guesthouse. In August 2000, Judy Anderson bought and renovated it. It is now owned by Rick and Sue Melvill and run by Caroline Mwangi.</p>
+			</div>
+		</section>
+
+
+		<section>
+			<div class="promo">
+				<h1>PROMOTIONS</h1>
+
+
+				<p>Winter specials on request Free wifi when booking directly</p>
+			</div>
+
+
+			<div class="activities">
+				<h1>ACTIVITIES</h1>
+            
+
+				<p>Excellent Restaurants and Bars gives you a top choice in your culinary experience. Harbour House and Brass Bell being some of the favourites. From June till mid-October, whales visit the bay to sport in the calm waters of your harbour entrance which you can view from the comfort of our veranda. Kalk Bay theatre has various shows running throughout the year and makes up only one of the many buildings which make the charcter of the village.</p>
+			</div>
+		</section>
+
+
+		<aside>
+			<iframe allowfullscreen frameborder="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13211.328691994348!2d18.449398!3d-34.125046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30580f2d5818ce75!2sInn+at+Castle+Hill!5e0!3m2!1sen!2sza!4v1529401879095" style="border:0"></iframe>
+		</aside>
+	</main>
+
+
+	<footer class="footer">
+		<div class="icon">
+			<a href="#"><i class="fas fa-home"></i><a href="https://web.facebook.com/The-Inn-At-Castle-Hill-422096261190252/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a> <i class="fas fa-map-marker-alt"></i> <i class="fab fa-tripadvisor"></i>
+		</div>
+
+
+		<p>Call +27 21 788 2554 | The Inn At Castle Hill, 37 Gatesville Road, Kalk Bay, Cape Town | Email: info@innatcastlehill.co.za | <a href="#">BOOK ONLINE NOW</a></p>
+
+
+		<p>copyright &copy; 2011 - 2018. The In At Castle Hill Guest House. All Rights Reserved.</p>
+	</footer>
+	<script src="jquery-3.3.1.min.js">
+	</script> <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+	 
+	<script src="owl.carousel.min.js" type="text/javascript">
+	</script> 
+	<script type="text/javascript">
+	          $('.owl-carousel').owlCarousel({
+	      loop:true,
+	      margin:10,
+	      nav:true,
+	      responsive:{
+	          0:{
+	              items:1
+	          },
+	          600:{
+	              items:3
+	          },
+	          1000:{
+	              items:1
+	          }
+	      }
+	   });
+	   // $('.slider').slick();
+	</script>
+</body>
+</html>
